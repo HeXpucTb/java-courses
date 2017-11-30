@@ -11,6 +11,8 @@ public class InteractRunner {
             while(!exit.equals("yes")){
                 System.out.println("Enter first arg: ");
                 String first = reader.next();
+                System.out.println("Enter action: ");
+                String third = reader.next();
                 System.out.println("Enter second arg: ");
                 String second = reader.next();
                 calc.add(Integer.valueOf(first), Integer.valueOf(second));
